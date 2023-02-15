@@ -13,3 +13,5 @@
 
 
 <h5>Complete theses task to active module</h5>
+Step 1. Open RouteServiceProvider<br>
+
