@@ -14,11 +14,13 @@
 
 <h3>Complete theses task to active module</h3><br>
 
-<h3>Active Your Module RouteServiceProvider</h3>
+<h4>Active Your Module RouteServiceProvider</h4>
 <h5>Step 1.</h5> Open RouteServiceProvider<br>
 <h5>Step 2.</h5> Add RouteServiceProvider.php code to your RouteServiceProvider.php file <br>
 
-<h5>Step 3.</h5>
+<h4>Active Your Module Migration</h4>
+<h5>Step 1.</h5> Add App->Providers->MigrationServiceProvider.php File to your App->Providers folder
+<h5>Step 2.</h5> Opern Config->app.php then add this line inside providers - App\Providers\MigrationServiceProvider::class, 
 
 
 
