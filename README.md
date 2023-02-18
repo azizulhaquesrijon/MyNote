@@ -12,9 +12,11 @@
 4. Controller create : php artisan module:controller ControllerName ModuleName<br><br>
 
 
-<h4>Complete theses task to active module</h4>
+<h3>Complete theses task to active module</h3><br>
+
+<h3>Active Your Module RouteServiceProvider</h3>
 <h5>Step 1.</h5> Open RouteServiceProvider<br>
-<h5>Step 2.</h5> Add RouteServiceProvider.php code to your RouteServiceProvider.php file- <br>
+<h5>Step 2.</h5> Add RouteServiceProvider.php code to your RouteServiceProvider.php file <br>
 
 <h5>Step 3.</h5>
 
