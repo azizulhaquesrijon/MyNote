@@ -14,24 +14,24 @@
 
 <h3>Complete theses task to active module</h3><br>
 
-<h4>Active Your Module RouteServiceProvider</h4>
+<h4>1.Active Your Module RouteServiceProvider</h4>
 <h5>Step 1.</h5> Open RouteServiceProvider<br>
 <h5>Step 2.</h5> Add RouteServiceProvider.php code to your RouteServiceProvider.php file <br>
 
-<h4>Active Your Module Migration</h4>
+<h4>2.Active Your Module Migration</h4>
 <h5>Step 1.</h5> Add App->Providers->MigrationServiceProvider.php File to your App->Providers folder
 <h5>Step 2.</h5> Opern Config->app.php then add this line inside providers - <br>
                  
                  App\Providers\MigrationServiceProvider::class, 
 
 
-<h4>Active Your Module View</h4>
+<h4>3.Active Your Module View</h4>
 <h5>Step 1.</h5> Open your view.php file add this line inside path - <br>
 
                 base_path('module/Product/views'),
  
  
-<h4>Active Your Module Seeder</h4>
+<h4>4.Active Your Module Seeder</h4>
 <h5>Step 1.</h5> Open your database->seeders->DatabaseSeeder.php file add this line inside run function -  <br>
 
                Artisan::call('db:seed', [
