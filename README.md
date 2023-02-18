@@ -20,13 +20,17 @@
 
 <h4>Active Your Module Migration</h4>
 <h5>Step 1.</h5> Add App->Providers->MigrationServiceProvider.php File to your App->Providers folder
-<h5>Step 2.</h5> Opern Config->app.php then add this line inside providers - App\Providers\MigrationServiceProvider::class, 
+<h5>Step 2.</h5> Opern Config->app.php then add this line inside providers - <br>
+                 
+                 App\Providers\MigrationServiceProvider::class, 
 
 
 <h4>Active Your Module View</h4>
-<h5>Step 1.</h5> Open your view.php file add this line inside path - base_path('module/Product/views'),
- 
+<h5>Step 1.</h5> Open your view.php file add this line inside path - <br>
 
+                base_path('module/Product/views'),
+ 
+ 
 <h4>Active Your Module Seeder</h4>
 <h5>Step 1.</h5> Open your database->seeders->DatabaseSeeder.php file add this line inside run function -  <br>
 
