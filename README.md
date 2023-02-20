@@ -6,10 +6,14 @@
 
 
 <h1>New Module Create :</h1><br>
-1. Module create : php artisan make:module ModuleName<br>
-2. Model create : php artisan module:model ModelName ModuleName<br>
-3. Migration create : php artisan module:nmigration MigrationName ModuleName<br>
-4. Controller create : php artisan module:controller ControllerName ModuleName<br><br>
+<h3>Create custom command for Module </h3>
+1.Copy App->Console->Commands and App->Console->stubs folder inside your App->Console Directory.
+2.Module command
+ * Module create : 
+            php artisan make:module ModuleName<br>
+ * Model create : php artisan module:model ModelName ModuleName<br>
+ * Migration create : php artisan module:nmigration MigrationName ModuleName<br>
+ * Controller create : php artisan module:controller ControllerName ModuleName<br><br>
 
 
 <h3>Complete theses task to active module</h3><br>
