@@ -8,8 +8,8 @@
 <h1>New Module Create :</h1><br>
 <h3>Create custom command for Module </h3>
 1.Copy App->Console->Commands and App->Console->stubs folder inside your App->Console Directory.
-2.Module command
- * Module create : 
+2.Module command<br>
+ * Module create : <br>
             php artisan make:module ModuleName<br>
  * Model create : php artisan module:model ModelName ModuleName<br>
  * Migration create : php artisan module:nmigration MigrationName ModuleName<br>
