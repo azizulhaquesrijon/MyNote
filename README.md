@@ -70,3 +70,13 @@
         '--class' => 'Module\Product\database\seeds\DatabaseSeeder',
     ]);
 ```
+
+
+
+<h4>1.Active Your Module</h4>
+<h5>Step 1.</h5> Open composer.json. Add it inside autoload -
+
+```PHP 
+   "Module\\": "module/",
+
+```
